@@ -349,6 +349,10 @@ Once you have the server running with SSE transport, you can connect to it using
 > **Note for Claude Code users**: 
 ```
 claude mcp add-json crawl4ai-rag '{"type":"http","url":"http://localhost:8051/sse"}' --scope user
+
+or
+
+claude mcp add --transport sse crawl4ai-rag http://localhost:8051/sse
 ```
 
 ### Stdio Configuration
